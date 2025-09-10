@@ -21,9 +21,10 @@ body {
     background-color: #FFF;
     font-family: 'TT Lakes';
     max-width: 320px;
-    margin: 10px 0;
+    max-height: 1024px;
     padding-left: 20px;
-    box-shadow: 5px 0 30px 10px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    box-shadow: 5px 0 30px 10px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -59,7 +60,7 @@ body {
 }
 
 .main {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .menu__list,
 .language__list {
@@ -97,9 +98,10 @@ body {
 .menu__link--current {
     color: #7E7E82;
 }
-
-.footer {
-    padding-top: 200px;
+.main_part {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
 }
 
 .footer__icon {
